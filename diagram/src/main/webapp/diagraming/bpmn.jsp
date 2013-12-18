@@ -49,8 +49,7 @@
 
 <div id="designer_header">
     <div class="titlebar">
-        <a class="btn_back" href="/diagraming/back?id=52b101620cf232c3edee5862" title='返回'><span
-                class="ico ico_goback"></span></a>
+        <a class="btn_back" href="/diagraming/back?id=52b101620cf232c3edee5862" title='返回'><span class="ico ico_goback"></span></a>
 
         <div class="row row1">
             <div id="title_container">
@@ -76,29 +75,19 @@
                 </div>
             </div>
             <div class="user" onmousedown="UI.showUserMenu(event)">
-                <img id="chat_user_521dcb690cf20afe916bb48f" src="/images/default/default/profile-full-male.png"/>softfn
-                <div class="ico ico_accordion"></div>
+                <img id="chat_user_521dcb690cf20afe916bb48f" src="/images/default/default/profile-full-male.png"/>softfn <div class="ico ico_accordion"></div>
             </div>
         </div>
     </div>
     <div class="toolbar">
         <!-- Clipboard -->
-        <div id="bar_undo" class="toolbar_button" title='撤销 (Ctrl+Z)'>
-            <div class="ico undo"></div>
-        </div>
-        <div id="bar_redo" class="toolbar_button" title='恢复 (Ctrl+Y)'>
-            <div class="ico redo"></div>
-        </div>
-        <div id="bar_brush" class="toolbar_button" title='格式刷 (Ctrl+Shift+B)'>
-            <div class="ico brush"></div>
-        </div>
+        <div id="bar_undo" class="toolbar_button" title='撤销 (Ctrl+Z)'> <div class="ico undo"></div> </div>
+        <div id="bar_redo" class="toolbar_button" title='恢复 (Ctrl+Y)'> <div class="ico redo"></div> </div>
+        <div id="bar_brush" class="toolbar_button" title='格式刷 (Ctrl+Shift+B)'> <div class="ico brush"></div> </div>
         <div class="toolbar_devider"></div>
 
         <!-- Font -->
-        <div id="bar_font_family" title='字体' class="toolbar_button" style="width: 80px;">
-            <div class="text_content">Arial</div>
-            <div class="ico ico_dropdown"></div>
-        </div>
+        <div id="bar_font_family" title='字体' class="toolbar_button" style="width: 80px;"> <div class="text_content">Arial</div> <div class="ico ico_dropdown"></div> </div>
         <div class="toolbar_small_devider"></div>
         <div id="bar_font_size" title='字号' class="spinner" style="width: 50px;"></div>
         <div class="toolbar_small_devider"></div>
