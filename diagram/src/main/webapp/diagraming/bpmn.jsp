@@ -2,27 +2,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-    <title>未命名文件 - ProcessOn</title>
+    <title>未命名文件</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="description"
-          content='ProcessOn一款HTML5版的免费在线作图工具，无需下载和安装，点击即可使用；支持用户无延迟协作 和历史记录动画回放等，只需一个浏览器即可全部完成！轻松、简单、易用！'/>
-    <link type='text/css' rel='stylesheet' href='/themes/default/global_zh.css?1387278818'/>
+    <meta name="description" content='一款HTML5版的免费在线作图工具，无需下载和安装，点击即可使用；支持用户无延迟协作 和历史记录动画回放等，只需一个浏览器即可全部完成！轻松、简单、易用！'/>
+    <link type='text/css' rel='stylesheet' href='/themes/default/global_zh.css'/>
     <script type="text/javascript" src="/scripts/jquery.js"></script>
-    <script type='text/javascript' charset='UTF-8' src='/scripts_bin/zh/util.js?1387273079'></script>
+    <script type='text/javascript' charset='UTF-8' src='/scripts_bin/zh/util.js'></script>
     <script type="text/javascript">
-        //Google Anlytics
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-28802488-1']);
-        _gaq.push(['_trackPageview']);
-
-        (function () {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
         var isIE = !!window.ActiveXObject;
         var isIE6 = isIE && !window.XMLHttpRequest;
         if (isIE6) {
@@ -30,17 +16,12 @@
         }
     </script>
 
-    <link type='text/css' rel='stylesheet' href='/themes/default/diagraming/designer.css?1387164905'/>
+    <link type='text/css' rel='stylesheet' href='/themes/default/diagraming/designer.css'/>
+    <link type='text/css' rel='stylesheet' href='/themes/default/diagraming/ui.css'/>
 
-    <link type='text/css' rel='stylesheet' href='/themes/default/diagraming/ui.css?1387172473'/>
-
-    <script type='text/javascript' charset='UTF-8'
-            src='/scripts_bin/zh/diagraming/schema/schema.js?1385547120'></script>
-
-    <script type='text/javascript' charset='UTF-8'
-            src='/scripts_bin/zh/diagraming/schema/categories/bpmn.js?1384420173'></script>
-    <script type='text/javascript' charset='UTF-8'
-            src='/scripts_bin/zh/diagraming/schema/categories/lane.js?1384420201'></script>
+    <script type='text/javascript' charset='UTF-8' src='/scripts_bin/zh/diagraming/schema/schema.js'></script>
+    <script type='text/javascript' charset='UTF-8' src='/scripts_bin/zh/diagraming/schema/categories/bpmn.js'></script>
+    <script type='text/javascript' charset='UTF-8' src='/scripts_bin/zh/diagraming/schema/categories/lane.js'></script>
     <script type="text/javascript">
         var chartId = "52b101620cf232c3edee5862";
 
@@ -51,15 +32,11 @@
         var userName = "softfn";
         var time = "1387337652919";
     </script>
-    <script type='text/javascript' charset='UTF-8'
-            src='/scripts_bin/zh/diagraming/collaboration.js?1387181827'></script>
-    <script type='text/javascript' charset='UTF-8'
-            src='/scripts_bin/zh/diagraming/designer.core.js?1387181926'></script>
-    <script type='text/javascript' charset='UTF-8'
-            src='/scripts_bin/zh/diagraming/designer.methods.js?1384420314'></script>
-    <script type='text/javascript' charset='UTF-8'
-            src='/scripts_bin/zh/diagraming/designer.events.js?1386231406'></script>
-    <script type='text/javascript' charset='UTF-8' src='/scripts_bin/zh/diagraming/designer.ui.js?1387172535'></script>
+    <script type='text/javascript' charset='UTF-8' src='/scripts_bin/zh/diagraming/collaboration.js'></script>
+    <script type='text/javascript' charset='UTF-8' src='/scripts_bin/zh/diagraming/designer.core.js'></script>
+    <script type='text/javascript' charset='UTF-8' src='/scripts_bin/zh/diagraming/designer.methods.js'></script>
+    <script type='text/javascript' charset='UTF-8' src='/scripts_bin/zh/diagraming/designer.events.js'></script>
+    <script type='text/javascript' charset='UTF-8' src='/scripts_bin/zh/diagraming/designer.ui.js'></script>
 </head>
 <body>
 <canvas id="support_canvas" style="display: none;"></canvas>
@@ -68,7 +45,7 @@
         window.location.href = "/diagraming/not_support";
     }
 </script>
-<h1 style="display: none;">ProcessOn无需下载的(HTML5)免费在线作图工具</h1>
+<h1 style="display: none;">无需下载的(HTML5)免费在线作图工具</h1>
 
 <div id="designer_header">
     <div class="titlebar">
@@ -93,20 +70,15 @@
             <div id="saving_tip"></div>
         </div>
         <div class="share_container">
-
-
             <div class="header_right_btn">
                 <div class="toolbar_button" onclick="UI.showAddColla()" title="分享与协作">
                     <div class="ico ico_header_share"></div>
                 </div>
             </div>
-
-
             <div class="user" onmousedown="UI.showUserMenu(event)">
                 <img id="chat_user_521dcb690cf20afe916bb48f" src="/images/default/default/profile-full-male.png"/>softfn
                 <div class="ico ico_accordion"></div>
             </div>
-
         </div>
     </div>
     <div class="toolbar">
@@ -212,8 +184,7 @@
     </div>
 </div>
 <div id="designer">
-<div id="shape_panel" class="layout">
-</div>
+<div id="shape_panel" class="layout"></div>
 <div id="designer_viewport">
 
 <div id="designer_layout" class="layout">
@@ -266,8 +237,7 @@
                 <li ac="ungroup">取消组合
                     <div class="extend">Ctrl+Shift+G</div>
                 </li>
-                <li id="ctxmenu_align">
-                    图形对齐
+                <li id="ctxmenu_align"> 图形对齐
                     <div class="extend ex_arrow">►</div>
                     <ul class="menu list extend_menu">
                         <li ac="align_shape" al="left">左对齐</li>

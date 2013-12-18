@@ -4,8 +4,8 @@
     <title></title>
 </head>
 <body>
-<a href="/diagraming/index.jsp">bpmn</a>
+<a href="/diagraming/designer.jsp">designer</a>
 
-<a href="/diagraming/all.jsp">all</a>
+<a href="/diagraming/bpmn.jsp">bpmn</a>
 </body>
 </html>
