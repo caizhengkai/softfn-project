@@ -7,7 +7,7 @@ Schema.addCategory({
 	text: "BPMN",
 	dataAttributes: [
 		{name: "名称", type:"string", value:"", category: "default"},
-		{name: "文档", type:"string", value:"", category: "default"},
+		{name: "文档", type:"string", value:"", category: "default"}
 	]
 });
 
@@ -4365,7 +4365,7 @@ Schema.addShape({
 	dataAttributes:[
 		{name: "循环类型", type:"list", value:"", category: "default",listItems:["","标准","多例"]},
 		{name: "是否为序列", type:"boolean", value:"true", category: "default"},
-		{name: "是否为补偿", type:"boolean", value:"false", category: "default"},
+		{name: "是否为补偿", type:"boolean", value:"false", category: "default"}
 	],
 	props: {
 		w: 100,
@@ -4412,7 +4412,7 @@ Schema.addShape({
 	dataAttributes:[
 		{name: "循环类型", type:"list", value:"", category: "default",listItems:["","标准","多例"]},
 		{name: "是否为序列", type:"boolean", value:"true", category: "default"},
-		{name: "是否为补偿", type:"boolean", value:"false", category: "default"},
+		{name: "是否为补偿", type:"boolean", value:"false", category: "default"}
 	],
 	props: {
 		w: 100,
@@ -4458,7 +4458,7 @@ Schema.addShape({
 	dataAttributes:[
 		{name: "循环类型", type:"list", value:"", category: "default",listItems:["","标准","多例"]},
 		{name: "是否为序列", type:"boolean", value:"true", category: "default"},
-		{name: "是否为补偿", type:"boolean", value:"false", category: "default"},
+		{name: "是否为补偿", type:"boolean", value:"false", category: "default"}
 	],
 	props: {
 		w: 100,
@@ -4958,7 +4958,7 @@ Schema.addShape({
 		{name: "激活条件", type:"string", value:"", category: "default"},
 		{name: "激活次数", type:"number", value:"", category: "default"},
 		{name: "等待开始", type:"boolean", value:"true", category: "default"},
-		{name: "缺省", type:"string", value:"", category: "default"},
+		{name: "缺省", type:"string", value:"", category: "default"}
 	],
 	props: {
 		w: 50,
@@ -5112,7 +5112,7 @@ Schema.addShape({
 	category: "bpmn",
 	groupName: "bpmnGateway",
 	dataAttributes:[
-		{name: "网关方向", type:"list", value:"", category: "default",listItems:["未声明","聚集(多输入流，单输出流)","分支(多输出流，单输入流)","混合"]},
+		{name: "网关方向", type:"list", value:"", category: "default",listItems:["未声明","聚集(多输入流，单输出流)","分支(多输出流，单输入流)","混合"]}
 	],
 	props: {
 		w: 50,
