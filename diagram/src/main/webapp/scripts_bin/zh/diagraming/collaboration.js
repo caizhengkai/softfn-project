@@ -199,7 +199,7 @@ var CLB = {
 		}
 		Util.ajax({
 			url: "/diagraming/msg",
-			data: {msgStr: msgStr, ignore: "msgStr"},
+			data: {msgStr: msgStr, ignore: "msgStr", chartId: chartId},
 			success: function(){
 				CLB.sending = false;
 				//再次继续发送新产生的消息
@@ -207,6 +207,8 @@ var CLB = {
 				if(typeof messages == "undefined"){
 					$("#saving_tip").text("所有更改已保存");
 				}
+			},error: function(){
+				CLB.showDisconnected();
 			}
 		});
 	},
