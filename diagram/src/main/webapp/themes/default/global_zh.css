@@ -599,17 +599,6 @@ img:-moz-broken{
 	text-decoration: none;
 }
 #header_nav .header-op{
-	/* float: right;
-	margin-right:5px;
-	margin-top: 6px;
-	height: 25px; line-height: 25px;
-	padding: 0px 8px;	
-	background:#e6e6e6 url(images/bg_repeat.png) repeat-x;
-	box-shadow:1px 1px 1px #3A87AD;
-	background-color: #227fdf;
-	background-position: 0px -150px; */
-	
-	
 	float: right;
 	margin-right:5px;
 	margin-top: 6px;
@@ -665,7 +654,7 @@ img:-moz-broken{
 	text-align:center;
 	padding:20px 0px;
 }
-.footer_content{
+.global_footer_content{
 	margin:0px auto;
 	width:920px;
 	color:#666;
@@ -775,7 +764,7 @@ img:-moz-broken{
 	width:auto;
 }
 .popover .arrow {
-        background: url('/images/v4/common-32.png?19332') no-repeat;
+	background: url('/images/v4/common-32.png?19332') no-repeat;
 	width: 32px;
 	height: 32px;
 	overflow: hidden;
@@ -1687,6 +1676,28 @@ Slider Styles
 	right:-16px;
 	top:6px;
 }
+input.error,textarea.error{
+	border: 1px solid #e3a198;
+	-webkit-box-shadow: 0px 0px 4px #e3a198;
+	-moz-box-shadow: 0px 0px 4px #e3a198;
+	box-shadow: 0px 0px 4px #e3a198;
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-o-transition: border linear 0.2s, box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+	color: #333333;
+}
+input.success,textarea.success{
+	border: 1px solid #468847;
+	-webkit-box-shadow: 0px 0px 4px #468847;
+	-moz-box-shadow: 0px 0px 4px #468847;
+	box-shadow: 0px 0px 4px #468847;
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-o-transition: border linear 0.2s, box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+	color: #333333;
+}
 .signin-success-tip-arrow.right1{
 	border-left:8px solid #DFF0D8;
 	right:-15px;
@@ -1711,9 +1722,9 @@ Slider Styles
   transition: width linear 0.2s;
 }
 .top_left_transition{
-	 -webkit-transition: top linear 0.2s,left linear 0.2s;
-  -o-transition: top linear 0.2s,left linear 0.2s;
-  -moz-transition: top linear 0.2s,left linear 0.2s;
-  transition: top linear 0.2s,left linear 0.2s;
+	 -webkit-transition: top linear 0.1s,left linear 0.1s;
+  -o-transition: top linear 0.1s,left linear 0.1s;
+  -moz-transition: top linear 0.1s,left linear 0.1s;
+  transition: top linear 0.1s,left linear 0.1s;
 }
 /*error-tip插件 end*/
